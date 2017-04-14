@@ -1,0 +1,15 @@
+figure {
+	max-width: 500px;
+	width: 30%;
+	/*float: left;*/
+}
+h2 {
+	font-size: 12px;
+}
+figure  {
+	/*margin: auto;*/
+	display: inline-block;
+}
+section {
+	display: block;
+}
