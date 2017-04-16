@@ -1,15 +1,58 @@
-figure {
-	max-width: 500px;
-	width: 30%;
-	/*float: left;*/
+@font-face {
+	font-family: 'Great Day';
+	src: url('GreatDay.ttf') format('truetype');
 }
-h2 {
-	font-size: 12px;
+body {
+	margin: 0;
+	background-image: url("slothbkg.jpg");
+}
+main {
+	position: relative;
+	top: 5em;
+	margin: auto;
+	background-color: white;
+	max-width: 70%;
 }
 figure  {
-	/*margin: auto;*/
 	display: inline-block;
+	width: min-content;
+	vertical-align: top;
+	outline: 1px solid black;
+	outline-offset: 1em;
+	min-height: 100%;
 }
-section {
+h2 {
+	font-family: 'Great Day';
+}
+section, footer {
 	display: block;
+	position: relative;
+	margin: 2em;
+}
+img {
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+}
+footer {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 2em 0;
+	background: hsla(180, 0%, 30%, .5);
+}
+footer p {
+	margin: auto;
+	text-align: center;
+}
+h1 {
+	margin: auto;
+	display: block;
+}
+#maintitle {
+	text-align: center;
+	padding-top: 1em;
+}
+table {
+	margin: 16px auto;
 }
